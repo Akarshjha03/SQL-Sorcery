@@ -77,8 +77,9 @@ The practicals listed below are designed to provide hands-on experience with var
 To get started with the practicals, clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/your-username/DBMS-Lab.git
+git clone https://github.com/username/DBMS-Lab.git
 cd DBMS-Lab
+```
 
 ## Requirements
 - A computer with an internet connection.
