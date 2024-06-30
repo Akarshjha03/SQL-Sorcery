@@ -3,7 +3,6 @@
 Welcome to the Structured Query Language repository. This repository contains practical exercises and projects for understanding and applying the concepts of database management systems. This repository contains the practical exercises for the Structured Query Language (SQL) course.
 
 ## Table of Contents
-- [Introduction](#introduction)
 - [Practical 1](#create_tables.sql)
 - [Practical 2](#simple_queries_1.sql)
 - [Practical 3](#simple_queries_2.sql)
@@ -16,32 +15,32 @@ Welcome to the Structured Query Language repository. This repository contains pr
 ## Introduction
 This course enables students to understand the different issues involved in the design and implementation of a database system and to execute various database queries using SQL.
 
-## Practical 2
+## Practical 1
 Create the following tables with appropriate data types and constraints:
 - **Employee** (Emp_name, Street, City)
 - **Work** (Emp_name, Cmp_name, Salary)
 - **Company** (Cmp_name, City)
 - **Manager** (Emp_name, Man_name)
 
-## Practical 3
+## Practical 2
 Perform various SQL queries to manage and manipulate the data in the tables created in Practical 2.
 
-## Practical 4
+## Practical 3
 Simple SQL queries to retrieve and manipulate data from various tables such as `BORROW`, `CUSTOMERS`, `BRANCH`, etc.
 
-## Practical 5
+## Practical 4
 SQL queries using the `LIKE` operator to filter and retrieve data based on specific patterns in the data.
 
-## Practical 6
+## Practical 5
 SQL queries utilizing aggregate functions (`SUM`, `AVG`, `MAX`, `MIN`, `COUNT`) and Data Manipulation Language (DML) operations.
 
-## Practical 7
+## Practical 6
 SQL queries involving table joins to retrieve data from multiple tables based on related columns.
 
-## Practical 8
+## Practical 7
 Miscellaneous SQL queries for various complex data retrieval and manipulation tasks.
 
-## Practical 9
+## Practical 8
 Advanced SQL queries and PL/SQL blocks for various complex operations such as finding average rates, loan details, customer information, etc.
 
 ## Setup
