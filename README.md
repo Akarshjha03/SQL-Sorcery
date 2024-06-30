@@ -1,109 +1,69 @@
-# Database Management Systems Lab
+# Structured Query Language
 
-Welcome to the Database Management Systems Lab repository. This repository contains practical exercises and projects for understanding and applying the concepts of database management systems.
+Welcome to the Structured Query Language repository. This repository contains practical exercises and projects for understanding and applying the concepts of database management systems. This repository contains the practical exercises for the Structured Query Language (SQL) course.
 
-## Practicals List
+## Table of Contents
+- [Introduction](#introduction)
+- [Practical 1](#create_tables.sql)
+- [Practical 2](#simple_queries_1.sql)
+- [Practical 3](#simple_queries_2.sql)
+- [Practical 4](#like_queries.sql)
+- [Practical 5](#aggregate_dml.sql)
+- [Practical 6](#join_queries_1.sql)
+- [Practical 7](#join_queries_2.sql)
+- [Practical 8](#miscellaneous_queries.sql)
 
-The practicals listed below are designed to provide hands-on experience with various aspects of database management systems. Each practical includes detailed instructions and requirements.
+## Introduction
+This course enables students to understand the different issues involved in the design and implementation of a database system and to execute various database queries using SQL.
 
-### Practical 1: Introduction to DBMS
+## Practical 2
+Create the following tables with appropriate data types and constraints:
+- **Employee** (Emp_name, Street, City)
+- **Work** (Emp_name, Cmp_name, Salary)
+- **Company** (Cmp_name, City)
+- **Manager** (Emp_name, Man_name)
 
-1. **Title:** Introduction to DBMS
-   - **Objective:** Understanding the basic concepts of database management systems.
-   - **Description:** Explore the fundamentals of DBMS, including its need, advantages, and components.
+## Practical 3
+Perform various SQL queries to manage and manipulate the data in the tables created in Practical 2.
 
-### Practical 2: Entity-Relationship Model
+## Practical 4
+Simple SQL queries to retrieve and manipulate data from various tables such as `BORROW`, `CUSTOMERS`, `BRANCH`, etc.
 
-2. **Title:** Entity-Relationship Model
-   - **Objective:** Learn how to create an ER diagram.
-   - **Description:** Design an ER diagram for a given problem statement.
+## Practical 5
+SQL queries using the `LIKE` operator to filter and retrieve data based on specific patterns in the data.
 
-### Practical 3: SQL Basics
+## Practical 6
+SQL queries utilizing aggregate functions (`SUM`, `AVG`, `MAX`, `MIN`, `COUNT`) and Data Manipulation Language (DML) operations.
 
-3. **Title:** SQL Basics
-   - **Objective:** Learn the basic SQL commands.
-   - **Description:** Write SQL queries to create, insert, update, delete, and retrieve data from a database.
+## Practical 7
+SQL queries involving table joins to retrieve data from multiple tables based on related columns.
 
-### Practical 4: Advanced SQL
+## Practical 8
+Miscellaneous SQL queries for various complex data retrieval and manipulation tasks.
 
-4. **Title:** Advanced SQL
-   - **Objective:** Use advanced SQL features.
-   - **Description:** Practice complex queries including joins, subqueries, and set operations.
+## Practical 9
+Advanced SQL queries and PL/SQL blocks for various complex operations such as finding average rates, loan details, customer information, etc.
 
-### Practical 5: Normalization
+## Setup
+To set up this project, you will need to have a database system (such as MySQL, PostgreSQL, etc.) installed. Follow the steps below to set up the project:
 
-5. **Title:** Normalization
-   - **Objective:** Understand and apply normalization techniques.
-   - **Description:** Normalize a database to the third normal form (3NF).
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/yourusername/dbms-lab.git
+    ```
 
-### Practical 6: Indexing and Views
+2. Navigate to the project directory:
+    ```sh
+    cd dbms-lab
+    ```
 
-6. **Title:** Indexing and Views
-   - **Objective:** Learn about indexing and views in SQL.
-   - **Description:** Create and use indexes and views to optimize query performance.
+3. Import the SQL scripts into your database.
 
-### Practical 7: Stored Procedures and Functions
-
-7. **Title:** Stored Procedures and Functions
-   - **Objective:** Learn to write stored procedures and functions.
-   - **Description:** Implement and execute stored procedures and functions in SQL.
-
-### Practical 8: Triggers
-
-8. **Title:** Triggers
-   - **Objective:** Understand the concept of triggers.
-   - **Description:** Create and use triggers to enforce business rules.
-
-### Practical 9: Transactions and Concurrency Control
-
-9. **Title:** Transactions and Concurrency Control
-   - **Objective:** Understand transactions and concurrency control mechanisms.
-   - **Description:** Implement transactions and explore concurrency control techniques.
-
-### Practical 10: Database Backup and Recovery
-
-10. **Title:** Database Backup and Recovery
-    - **Objective:** Learn database backup and recovery techniques.
-    - **Description:** Perform database backup and recovery operations.
-
-### Practical 11: NoSQL Databases
-
-11. **Title:** NoSQL Databases
-    - **Objective:** Introduction to NoSQL databases.
-    - **Description:** Explore the basics of NoSQL and work with a NoSQL database.
-
-## Getting Started
-
-To get started with the practicals, clone this repository to your local machine:
-
-```bash
-git clone https://github.com/username/DBMS-Lab.git
-cd DBMS-Lab
-```
-
-## Requirements
-- A computer with an internet connection.
-- A database management system installed (MySQL, PostgreSQL, etc.).
-- A text editor or IDE for writing SQL queries (VS Code, Sublime Text, etc.).
+## Usage
+To use the project, execute the SQL scripts provided in the repository to create the necessary tables and perform the practical exercises.
 
 ## Contributing
-If you would like to contribute to this repository, please fork the repository and create a pull request with your changes. Make sure to follow the contribution guidelines.
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-branch
-    ```
-3. Make your changes.
-4. Commit your changes:
-    ```bash
-    git commit -m 'Add some feature'
-    ```
-5. Push to the branch:
-    ```bash
-    git push origin feature-branch
-    ```
-6. Create a new Pull Request.
+If you would like to contribute to this project, please fork the repository and submit a pull request with your changes.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
