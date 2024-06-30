@@ -8,7 +8,7 @@ Welcome to the Structured Query Language repository. This repository contains pr
 - Practicle 3: [simple_queries_2.sql](./simple_queries_2.sql)
 - Practicle 4: [like_queries.sql](./like_queries.sql)
 - Practicle 5: [aggregate_dml.sql](./aggregate_dml.sql)
-- Practicle 6: [join_queries_1.sql](./join_queries_1.sql)
+- Practicle 6: [joinqueries.sql](./joinqueries.sql)
 - Practicle 7: [join_queries_2.sql](./join_queries_2.sql)
 - Practicle 8: [miscellaneous_queries.sql](./miscellaneous_queries.sql)
 
