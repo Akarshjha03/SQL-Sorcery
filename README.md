@@ -3,14 +3,14 @@
 Welcome to the Structured Query Language repository. This repository contains practical exercises and projects for understanding and applying the concepts of database management systems. This repository contains the practical exercises for the Structured Query Language (SQL) course.
 
 ## Table of Contents
-- [Practical 1](#create_tables.sql)
-- [Practical 2](#simple_queries_1.sql)
-- [Practical 3](#simple_queries_2.sql)
-- [Practical 4](#like_queries.sql)
-- [Practical 5](#aggregate_dml.sql)
-- [Practical 6](#join_queries_1.sql)
-- [Practical 7](#join_queries_2.sql)
-- [Practical 8](#miscellaneous_queries.sql)
+- Practicle 1: [create_tables.sql](./create_tables.sql)
+- Practicle 2: [simple_queries_1.sql](./simple_queries_1.sql)
+- Practicle 3: [simple_queries_2.sql](./simple_queries_2.sql)
+- Practicle 4: [like_queries.sql](./like_queries.sql)
+- Practicle 5: [aggregate_dml.sql](./aggregate_dml.sql)
+- Practicle 6: [join_queries_1.sql](./join_queries_1.sql)
+- Practicle 7: [join_queries_2.sql](./join_queries_2.sql)
+- Practicle 8: [miscellaneous_queries.sql](./miscellaneous_queries.sql)
 
 ## Introduction
 This course enables students to understand the different issues involved in the design and implementation of a database system and to execute various database queries using SQL.
