@@ -38,10 +38,10 @@ SQL queries utilizing aggregate functions (`SUM`, `AVG`, `MAX`, `MIN`, `COUNT`) 
 SQL queries involving table joins to retrieve data from multiple tables based on related columns.
 
 ## Practical 7
-Miscellaneous SQL queries for various complex data retrieval and manipulation tasks.
+SQL queries involving table joins to retrieve data from multiple tables based on related columns with some more examples.
 
 ## Practical 8
-Advanced SQL queries and PL/SQL blocks for various complex operations such as finding average rates, loan details, customer information, etc.
+Miscellaneous SQL queries for various complex data retrieval and manipulation tasks.
 
 ## Setup
 To set up this project, you will need to have a database system (such as MySQL, PostgreSQL, etc.) installed. Follow the steps below to set up the project:
